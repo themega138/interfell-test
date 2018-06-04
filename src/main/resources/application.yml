@@ -6,6 +6,10 @@ spring:
 
   jersey.application-path: /api
 
+interfell:
+  security:
+    token-time-alive: 3600
+
 endpoints:
   enabled: false
   info:
